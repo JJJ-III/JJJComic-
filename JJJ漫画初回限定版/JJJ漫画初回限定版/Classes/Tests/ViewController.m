@@ -24,4 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+// 获取一个类里面的所有成员变量
+
 @end
