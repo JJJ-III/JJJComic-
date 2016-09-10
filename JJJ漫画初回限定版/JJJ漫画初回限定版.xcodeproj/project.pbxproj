@@ -12,7 +12,12 @@
 		0C74BB561D029D0B00B91040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C74BB541D029D0B00B91040 /* LaunchScreen.storyboard */; };
 		0C74BB611D029D0B00B91040 /* JJJ_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74BB601D029D0B00B91040 /* JJJ_______Tests.m */; };
 		0C74BB6C1D029D0B00B91040 /* JJJ_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74BB6B1D029D0B00B91040 /* JJJ_______UITests.m */; };
-		0C74BB7A1D07C2B600B91040 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 0C74BB791D07C2B600B91040 /* Classes */; };
+		0C74BB881D07C58300B91040 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74BB831D07C58300B91040 /* AppDelegate.m */; };
+		0C74BB891D07C58300B91040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74BB841D07C58300B91040 /* main.m */; };
+		0C74BB911D07CA9000B91040 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74BB8E1D07CA9000B91040 /* ViewController.m */; };
+		0C74BB941D0815E000B91040 /* TestObject_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74BB931D0815E000B91040 /* TestObject_01.m */; };
+		0CEBAF001D0E820100E7798E /* PeripheraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBAEFF1D0E820100E7798E /* PeripheraVC.m */; };
+		0CEBAF031D0E82B900E7798E /* CentralVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBAF021D0E82B900E7798E /* CentralVC.m */; };
 		300083C480D267122AD2AB4E /* libPods-JJJ漫画初回限定版Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A369F4653E179ED401E20D /* libPods-JJJ漫画初回限定版Tests.a */; };
 		DE590C6AF8584D7018BA89DE /* libPods-JJJ漫画初回限定版.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A347DB891C40CEA82E5AA8E /* libPods-JJJ漫画初回限定版.a */; };
 		F389339157FE023342FA5E07 /* libPods-JJJ漫画初回限定版UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D372600D38B498A4B324D9 /* libPods-JJJ漫画初回限定版UITests.a */; };
@@ -49,7 +54,19 @@
 		0C74BB671D029D0B00B91040 /* JJJ漫画初回限定版UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JJJ漫画初回限定版UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C74BB6B1D029D0B00B91040 /* JJJ_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JJJ_______UITests.m"; sourceTree = "<group>"; };
 		0C74BB6D1D029D0B00B91040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C74BB791D07C2B600B91040 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		0C74BB821D07C58300B91040 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C74BB831D07C58300B91040 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C74BB841D07C58300B91040 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C74BB8B1D07C5EF00B91040 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0C74BB8D1D07CA9000B91040 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C74BB8E1D07CA9000B91040 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C74BB921D0815E000B91040 /* TestObject_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject_01.h; sourceTree = "<group>"; };
+		0C74BB931D0815E000B91040 /* TestObject_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject_01.m; sourceTree = "<group>"; };
+		0CEBAEFE1D0E820100E7798E /* PeripheraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheraVC.h; sourceTree = "<group>"; };
+		0CEBAEFF1D0E820100E7798E /* PeripheraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheraVC.m; sourceTree = "<group>"; };
+		0CEBAF011D0E82B900E7798E /* CentralVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralVC.h; sourceTree = "<group>"; };
+		0CEBAF021D0E82B900E7798E /* CentralVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralVC.m; sourceTree = "<group>"; };
+		0CF4DC861D845CBE00C0FA2D /* Idears.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Idears.h; sourceTree = "<group>"; };
 		3C43FD462449E5DA3B6C91AB /* Pods-JJJ漫画初回限定版Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJ漫画初回限定版Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJJ漫画初回限定版Tests/Pods-JJJ漫画初回限定版Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A347DB891C40CEA82E5AA8E /* libPods-JJJ漫画初回限定版.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJJ漫画初回限定版.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAA4E7BD680CC29C3DFE9B2 /* Pods-JJJ漫画初回限定版UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJJ漫画初回限定版UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJJ漫画初回限定版UITests/Pods-JJJ漫画初回限定版UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C2490B91D13C63500D0D7B9 /* MyCustom（自定义的） */ = {
+			isa = PBXGroup;
+			children = (
+				0C2490C01D13E5B500D0D7B9 /* ShowPics */,
+			);
+			name = "MyCustom（自定义的）";
+			path = MyCustom;
+			sourceTree = "<group>";
+		};
+		0C2490C01D13E5B500D0D7B9 /* ShowPics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShowPics;
+			sourceTree = "<group>";
+		};
 		0C74BB3A1D029D0B00B91040 = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +145,7 @@
 		0C74BB451D029D0B00B91040 /* JJJ漫画初回限定版 */ = {
 			isa = PBXGroup;
 			children = (
-				0C74BB791D07C2B600B91040 /* Classes */,
+				0C74BB801D07C58300B91040 /* Classes */,
 				0C74BB4F1D029D0B00B91040 /* Main.storyboard */,
 				0C74BB521D029D0B00B91040 /* Assets.xcassets */,
 				0C74BB541D029D0B00B91040 /* LaunchScreen.storyboard */,
@@ -145,6 +178,67 @@
 				0C74BB6D1D029D0B00B91040 /* Info.plist */,
 			);
 			path = "JJJ漫画初回限定版UITests";
+			sourceTree = "<group>";
+		};
+		0C74BB801D07C58300B91040 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C2490B91D13C63500D0D7B9 /* MyCustom（自定义的） */,
+				0C74BB811D07C58300B91040 /* Others */,
+				0C74BB851D07C58300B91040 /* Tests */,
+				0CF4DC861D845CBE00C0FA2D /* Idears.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C74BB811D07C58300B91040 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0C74BB821D07C58300B91040 /* AppDelegate.h */,
+				0C74BB831D07C58300B91040 /* AppDelegate.m */,
+				0C74BB841D07C58300B91040 /* main.m */,
+				0C74BB8B1D07C5EF00B91040 /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		0C74BB851D07C58300B91040 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0C74BB8C1D07CA9000B91040 /* Controllers */,
+				0C74BB8F1D07CA9000B91040 /* Models */,
+				0C74BB901D07CA9000B91040 /* Views */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		0C74BB8C1D07CA9000B91040 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C74BB8D1D07CA9000B91040 /* ViewController.h */,
+				0C74BB8E1D07CA9000B91040 /* ViewController.m */,
+				0CEBAEFE1D0E820100E7798E /* PeripheraVC.h */,
+				0CEBAEFF1D0E820100E7798E /* PeripheraVC.m */,
+				0CEBAF011D0E82B900E7798E /* CentralVC.h */,
+				0CEBAF021D0E82B900E7798E /* CentralVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0C74BB8F1D07CA9000B91040 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C74BB921D0815E000B91040 /* TestObject_01.h */,
+				0C74BB931D0815E000B91040 /* TestObject_01.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C74BB901D07CA9000B91040 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		13BAD29659CA7A0975C7E54B /* Pods */ = {
@@ -282,7 +376,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C74BB561D029D0B00B91040 /* LaunchScreen.storyboard in Resources */,
-				0C74BB7A1D07C2B600B91040 /* Classes in Resources */,
 				0C74BB531D029D0B00B91040 /* Assets.xcassets in Resources */,
 				0C74BB511D029D0B00B91040 /* Main.storyboard in Resources */,
 			);
@@ -432,6 +525,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C74BB911D07CA9000B91040 /* ViewController.m in Sources */,
+				0C74BB941D0815E000B91040 /* TestObject_01.m in Sources */,
+				0CEBAF001D0E820100E7798E /* PeripheraVC.m in Sources */,
+				0C74BB891D07C58300B91040 /* main.m in Sources */,
+				0CEBAF031D0E82B900E7798E /* CentralVC.m in Sources */,
+				0C74BB881D07C58300B91040 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +606,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -552,7 +651,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -573,6 +672,7 @@
 			baseConfigurationReference = AAA5D8CB27987AA9A5BA1494 /* Pods-JJJ漫画初回限定版.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/jjj/JJJSpace/JJJComic-/JJJ漫画初回限定版/JJJ漫画初回限定版/Classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "JJJ漫画初回限定版/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JJJ.JJJ-------";
@@ -585,6 +685,7 @@
 			baseConfigurationReference = CC3E25228C6538E122458A7C /* Pods-JJJ漫画初回限定版.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/jjj/JJJSpace/JJJComic-/JJJ漫画初回限定版/JJJ漫画初回限定版/Classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = "JJJ漫画初回限定版/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JJJ.JJJ-------";

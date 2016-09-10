@@ -1,10 +1,15 @@
 PODS:
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
   - SSZipArchive (1.2)
 
 DEPENDENCIES:
+  - SDWebImage
   - SSZipArchive
 
 SPEC CHECKSUMS:
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SSZipArchive: 251093c65f98d6ea282c50bc404bfa631d9fd721
 
 COCOAPODS: 0.39.0

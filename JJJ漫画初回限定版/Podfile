@@ -6,7 +6,7 @@
 target 'JJJ漫画初回限定版' do
 
 pod ‘SSZipArchive’
-
+pod ‘SDWebImage’
 end
 
 target 'JJJ漫画初回限定版Tests' do
